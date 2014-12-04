@@ -1,0 +1,22 @@
+html, .datamaps-hoverover {
+  background: #102C3A;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  color: #0f2530;
+  margin-left: 20px;
+  position: fixed;
+}
+
+.location-info {
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "world.io",
+  "version": "0.0.1",
+  "description": "listen for events and prints the location on a world map",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "ordepdev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.4",
+    "socket.io": "^1.2.1",
+    "socket.io-client": "^1.2.1",
+    "geoip-lite": "^1.1.5"
+  }
+}
