@@ -1,6 +1,6 @@
 {
   "name": "world.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "listen for events and prints the location on a world map",
   "main": "server.js",
   "scripts": {
