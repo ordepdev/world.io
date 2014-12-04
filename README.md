@@ -15,3 +15,7 @@ $ cd world.io
 $ npm start
 // => Server listening on port 3000
 ```
+
+#### Output
+
+![alt tag](https://raw.githubusercontent.com/ordepdev/world.io/master/www/images/world.png)
