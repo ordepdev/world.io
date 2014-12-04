@@ -1,3 +1,5 @@
+'use strict'
+
 var Connection  = require('./connection'),
     geoip       = require('geoip-lite');
 
