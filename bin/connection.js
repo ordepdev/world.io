@@ -7,6 +7,7 @@ var EVENTS = {
   action: 'action',
   logout: 'logout'
 }
+
 var DEFAULTS = {
   radius:         2,
   loginFillKey:   EVENTS.login,
@@ -16,11 +17,11 @@ var DEFAULTS = {
 }
 
 var Connection = function (options) {
-  this.name = options.name,
-  this.ip = options.ip,
-  this.type = options.type,
-  this.getGeoLocation(),
-  this.getFillKey()
+  this.name = options.name;
+  this.ip = options.ip;
+  this.type = options.type;
+  this.getGeoLocation();
+  this.getFillKey();
 }
 
 Connection.prototype.getFillKey = function () {
