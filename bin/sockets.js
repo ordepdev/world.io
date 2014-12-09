@@ -21,8 +21,14 @@ module.exports = function(clientIO, serverIO) {
 
   function handleConnection (name, data) {
     data.name = name;
-    var connection = new Connection(data).format();
+    var connection = new Connection(data).format();  
+
+    if (connections.length >= 100) {
+        connections.splice(0, 1);
+    }
+
     connections.push(connection);
+    
     serverIO.emit('event-stream', connections);
   }
 }
