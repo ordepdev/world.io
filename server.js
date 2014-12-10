@@ -21,4 +21,4 @@ var server = app.listen(app.get('port'), function() {
 var serverIO = require('socket.io')(server);
 var clientIO = require('socket.io-client')('http://198.100.149.7:10000');
 
-var sockets = require('./bin/sockets')(clientIO, serverIO);
+var sockets = require('./lib/sockets')(clientIO, serverIO);
