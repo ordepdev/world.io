@@ -7,7 +7,7 @@
 ```bash
 $ git clone https://github.com/ordepdev/world.io
 $ cd world.io
-& npm install
+$ npm install
 ```
 #### Usage
 
